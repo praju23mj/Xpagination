@@ -1,14 +1,44 @@
 body{
   display: flex;
   justify-content: center;
+  text-align: center;
 
 }
 
 .container{
-  width:100%;
+  width:100vw;
 }
 
 table{
   width:100%;
+  text-align: left;
 }
 
+
+button{
+  margin: 30px;
+  background-color: #04AA6D;
+  color:white;
+  border: none;
+  padding:8px;
+  border-radius: 5px;
+}
+
+span{
+  height:50px;
+  width:50vw;
+  background-color:  #04AA6D;
+  padding: 8px;
+  color: white;
+  border-radius: 5px;
+}
+
+
+th{
+  background-color:  #04AA6D;
+  color: white;
+}
+
+th,td{
+  border-bottom: 1px solid #ddd;
+}
