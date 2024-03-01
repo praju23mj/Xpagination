@@ -1,0 +1,14 @@
+body{
+  display: flex;
+  justify-content: center;
+
+}
+
+.container{
+  width:100%;
+}
+
+table{
+  width:100%;
+}
+
